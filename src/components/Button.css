@@ -1,0 +1,15 @@
+button {
+    font-size: 2rem;
+    border: 1px solid white;
+    outline: none;
+    background-color: rgba(255, 255, 255, .75);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, .9);
+}
+
+button.span-2 {
+    grid-column: span 2;
+}
